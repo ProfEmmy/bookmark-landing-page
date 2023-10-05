@@ -1,0 +1,58 @@
+.nav,
+.features-section,
+.download-section,
+.faq-section,
+.subscribe-section,
+.footer-section {
+    display: none;
+}
+
+.mobile-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-div {
+    width: 80vw;
+    margin-top: 30px;
+    display: grid;
+    height: 50vh;
+    align-items: start;
+}
+
+.mobile-header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.hero-div {
+    align-self: end;
+}
+
+.menu-icon {
+    justify-self: right;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 115%;
+    position: relative;
+}
+
+.img-div::before {
+    content: '';
+    width: 250px;
+    height: 220px;
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    right: 0;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    align-self: end;
+    margin-bottom: -30px;
+}

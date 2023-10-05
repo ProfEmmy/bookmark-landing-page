@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @keyframes slideIn {
+            0% {
+                max-height: 2px;
+            }
+
+            100% {
+                max-height: 300px;
+            }
+        }
+
+        div {
+            border: 1px solid #000;
+            width: 300px;
+            height: auto;
+            animation: slideIn 1s ease infinite alternate forwards;
+        }
+
+        div>p {
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Hello World</p>
+    </div>
+</body>
+
+</html>
